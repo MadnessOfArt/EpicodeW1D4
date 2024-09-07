@@ -2,6 +2,14 @@
     margin: 0;
 }
 
+/*
+outfit 
+
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+*/
 header {
     background-color: black;
     display: block;
@@ -9,16 +17,46 @@ header {
     padding: 0px 30px;
     padding-top: 20px;
     padding-bottom: 10px;
-
-
+    
 }
 
 #logo {
     width: 120px;
-    text-align: center;
-
 }
 
 #topbar {
     text-align: center;
+}
+
+nav {
+    display: block;
+    background-color: #ff9902;
+    padding: 15px 0px;
+    text-align: center;
+    margin: 0;
+
+}
+
+.nav {
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: "Outfit", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #1c1c1c;
+
+
+}
+
+.customlink {
+    text-decoration: none;
+    color: #1c1c1c;
+
+}
+
+#midnav {
+    padding-left: 10%;
+    padding-right: 10%;
 }

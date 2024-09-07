@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    display: block;
+    text-align: start;
+    padding: 0px 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+
+}
+
+#logo {
+    width: 120px;
+    text-align: center;
+
+}
+
+#topbar {
+    text-align: center;
+}

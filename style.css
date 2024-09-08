@@ -2,10 +2,28 @@
     margin: 0;
 }
 
+body {
+    background-color: whitesmoke;
+}
+
+/* classi per i testi */
 .title1 {
     font-family: "Outfit", sans-serif;
     font-size: 2rem;
     font-weight: 300;
+}
+.text1 {
+    font-family: "Outfit", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 300;
+
+}
+
+.text2samllgreen {
+    font-family: "Outfit", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #2f6e5f;
 }
 /*
 outfit 
@@ -99,4 +117,20 @@ main {
     margin: 15px;
     color: rgb(255, 255, 255);
     font-weight: 400;
+}
+#perfectgifbox {
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    margin-top: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 40px #1c1c1c38;
+    padding: 25px;
+}
+
+#textperfectgifbox {
+    display: inline;
+}
+
+#textperfectgifbox span.text1 {
+    margin-right: 40px;
 }

@@ -14,6 +14,9 @@ body {
     background-color: whitesmoke;
 }
 
+a {
+    text-decoration: none;
+}
 /* classi per i testi */
 
 .title1 {
@@ -24,12 +27,18 @@ body {
 .customlink {
     text-decoration: none;
     color: #1c1c1c;
+    cursor: pointer;
 }
 .text1 {
     font-family: "Outfit", sans-serif;
     font-size: 1.3rem;
     font-weight: 300;
+}
 
+.text2 {
+    font-family: "Outfit", sans-serif;
+    font-size: 3rem;
+    font-weight: 500;
 }
 
 .text2samllgreen {
@@ -39,7 +48,13 @@ body {
     color: #2f6e5f;
 }
 
+.text3midgreen {
+    font-family: "Outfit", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
 /* Headre started */
+
 header {
     background-color: black;
     display: block;
@@ -75,8 +90,7 @@ nav {
     font-size: 1.2rem;
     font-weight: 300;
     color: #1c1c1c;
-
-
+    text-align: center;
 }
 
 #midnav {
@@ -142,12 +156,15 @@ main {
 #textperfectgifbox span.text1 {
     margin-right: 40px;
 }
+#textperfectgifbox a {
+    cursor: pointer;
+}
 .imgbox {
     height: 470px;
-    width: 377px;
+    width: 350px;
     background-color: #ff9902;
     border-radius: 20px;
-    margin: 30px 5px;
+    margin: 30px 15px;
     display: inline-block;
     box-shadow: 0px 3px 30px #1c1c1c4b;
 }
@@ -161,10 +178,75 @@ main {
     height: 100%;
     object-fit: cover;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 /* closed section2 Find the perfect gift box */
 
+/* started box find the perfect gift */
 
+#palygame {
+    background-image: url(assets/img_9.png);
+    background-size: cover;
+    background-position: center;
+    height: 360px;
+    margin-top: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 40px #1c1c1c38;
+
+}
+
+#overlay1 {
+    background-color: #00000080;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#overlay1 div {
+    padding-top: 150px;
+    color: antiquewhite;
+}
+
+#overlay1 a {
+    cursor: pointer;
+    color: #ff9902;
+}
+
+/* closed box find the perfect gift */
+
+/* started box find the audio e acessories */
+
+#theaudio {
+    background-image: url(assets/img_10.png);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    margin-top: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 40px #1c1c1c38;
+}
+
+#backtotop {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#backtotop a {
+    color: #1c1c1c;
+    cursor: pointer;
+}
+
+/* closed box find the audio e acessories */
 
 /* Finished page content */
+/* Start Footer */
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 30px;
+}
+
+/* Closed Footer */

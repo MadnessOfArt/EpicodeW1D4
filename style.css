@@ -55,8 +55,11 @@ a {
 }
 /* Headre started */
 
-
+<<<<<<< HEAD
+#topbarhead {
+=======
 header {
+>>>>>>> 22991f3b800276475b929e152ebe2ba911613e73
     background-color: black;
     display: block;
     text-align: start;

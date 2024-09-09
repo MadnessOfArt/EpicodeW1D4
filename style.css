@@ -233,25 +233,29 @@ main {
     box-shadow: 0px 5px 40px #1c1c1c38;
 }
 
-#backtotop {
-    text-align: center;
-    margin-top: 40px;
-}
-
-#backtotop a {
-    color: #1c1c1c;
-    cursor: pointer;
-}
-
 /* closed box find the audio e acessories */
 
-/* Finished page content */
-/* Start Footer */
+/* starting extra box by 4 product in one */
 
-footer {
-    background-color: black;
-    text-align: center;
-    padding: 30px;
+
+
+.game {
+    background-color: #1c1c1c;
+    width: 500px;
+    height: 550px;
+    margin-top: 40px;
+    border-radius: 20px;
+        padding: 20px;
 }
 
-/* Closed Footer */
+.box1 {
+    background-color: wheat;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+.row1 {
+    display: inline-block;
+}
+

@@ -60,9 +60,7 @@ header {
     background-color: black;
     display: block;
     text-align: start;
-    padding: 0px 30px;
     padding-top: 20px;
-    padding-bottom: 10px;
 }
 
 header {
@@ -72,6 +70,7 @@ header {
 }
 #logo {
     width: 120px;
+    padding-left: 30px;
 }
 
 #topbar {

@@ -17,6 +17,7 @@ body {
 a {
     text-decoration: none;
 }
+
 /* classi per i testi */
 
 .title1 {
@@ -24,11 +25,13 @@ a {
     font-size: 2rem;
     font-weight: 300;
 }
+
 .customlink {
     text-decoration: none;
     color: #1c1c1c;
     cursor: pointer;
 }
+
 .text1 {
     font-family: "Outfit", sans-serif;
     font-size: 1.3rem;
@@ -53,6 +56,7 @@ a {
     font-size: 1.8rem;
     font-weight: 500;
 }
+
 /* Headre started */
 
 #topbarhead {
@@ -67,6 +71,7 @@ header {
     position: sticky;
     top: 0px;
 }
+
 #logo {
     width: 120px;
     padding-left: 30px;
@@ -144,6 +149,7 @@ main {
     font-weight: 400;
     text-align: center;
 }
+
 /* Closeed section 1 two box to gift's */
 
 /* started section2 Find the perfect gift box */
@@ -158,15 +164,17 @@ main {
 
 #textperfectgifbox {
     display: inline;
-    
+
 }
 
 #textperfectgifbox span.text1 {
     margin-right: 40px;
 }
+
 #textperfectgifbox a {
     cursor: pointer;
 }
+
 .imgbox {
     height: 470px;
     width: 350px;
@@ -201,7 +209,7 @@ main {
     margin-top: 40px;
     border-radius: 20px;
     box-shadow: 0px 5px 40px #1c1c1c38;
-    
+
 
 }
 
@@ -210,7 +218,7 @@ main {
     width: 100%;
     height: 100%;
     border-radius: 20px;
-    
+
 }
 
 #overlay1 div {
@@ -227,6 +235,7 @@ main {
 #overlay1 p {
     text-align: center;
 }
+
 /* closed box find the perfect gift */
 
 /* started box find the audio e acessories */
@@ -245,53 +254,85 @@ main {
 
 /* starting extra box by 4 product in one */
 
-
-
-.game {
-    background-color: #1c1c1c;
-    width: 500px;
-    height: 550px;
-    margin-top: 40px;
-    border-radius: 20px;
-    padding: 20px;
-}
-
-.box1 {
-    background-color: wheat;
-    width: 200px;
-    height: 200px;
-    margin: 20px;
-}
-
-.row1 {
-    display: inline-block;
-}
-
-#innertbox {
+.innertbox {
     width: 160px;
     height: 160px;
-    background: black;
+    /* background: black; */
     display: inline-block;
-    margin: 12px;
+    margin: 7px;
+    font-family: "Outfit", sans-serif;
+    font-size: 0.8rem;
+    text-align: start;
 }
 
-
-#mainbox {
-    background-color: #ff9902;
-    height: 390px;
+.mainbox {
+    background-color: #ffffff;
+    height: 520px;
     width: 390px;
     display: block;
-    padding: 20px;
+    padding: 7px;
     text-align: center;
+    border-radius: 20px;
+    box-shadow: 0px 5px 40px #1c1c1c38;
+        margin: 7px;
 }
 
 p:first-child {
     text-align: start;
+    font-weight: 500;
+    padding-bottom: 25px;
+    padding-top: 17px;
 }
 
-#cazzo2 {
-    width: 300px;
-    height: 300px;
-    background: black;
-    display: inline-block;
+.fiximg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0px 5px 40px #1c1c1c38;
+    position:
 }
+
+#ff {
+    display: inline-block;
+    display: flex;
+        margin-top: 70px;
+}
+
+#ff p {
+    padding-left: 20px;
+}
+
+p:last-child {
+    text-align: start;
+    cursor: pointer;
+        margin-top: 23px;
+}
+
+.stiker {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left;
+    bottom: ;
+}
+/* finished extra box by 4 product in one */
+#backtotop a {
+    color: #1c1c1c;
+    cursor: pointer;
+}
+
+
+/* Finished page content */
+/* Start Footer */
+
+.footer {
+    background-color: black;
+    text-align: center;
+    padding: 30px;
+    height: 30px;
+    margin-top: 100px;
+}
+
+
+/* Closed Footer */
